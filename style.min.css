@@ -1,0 +1,142 @@
+@import"https://fonts.googleapis.com/css2?family=Roboto&display=swap";
+@import"https://fonts.googleapis.com/css2?family=Kanit&display=swap";
+@import"https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap";
+
+body {
+    font-family: "Roboto", sans-serif
+}
+
+.container {
+    margin: 60px auto;
+    width: 1000px
+}
+
+.container .header {
+    width: 100%;
+    text-align: center
+}
+
+.container .header h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 0
+}
+
+.container .header span {
+    font-size: 13px
+}
+
+.container .calendar {
+    width: 100%;
+    margin: 10px 0 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 0px
+}
+
+.container .calendar .month {
+    padding: 5px 0 0 0;
+    width: 215px;
+    height: 135px;
+    border-left: 2px solid #000;
+    border-top: 2px solid #000
+}
+
+.container .calendar .month:nth-child(4),
+.container .calendar .month:nth-child(8),
+.container .calendar .month:nth-child(12) {
+    border-right: 2px solid #000
+}
+
+.container .calendar .month:nth-child(9),
+.container .calendar .month:nth-child(10),
+.container .calendar .month:nth-child(11),
+.container .calendar .month:nth-child(12) {
+    border-bottom: 2px solid #000
+}
+
+.container .calendar .month table {
+    width: 100%;
+    text-align: center;
+    border-spacing: 0;
+    padding: 0 10px 0 10px
+}
+
+.container .calendar .month table th {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "Kanit", sans-serif;
+    letter-spacing: 1px
+}
+
+.container .calendar .month table td {
+    font-family: "Kanit", sans-serif;
+    font-size: 12px;
+    border-spacing: 0;
+    line-height: 13px;
+    font-weight: 300
+}
+
+.container .calendar .month table .day {
+    text-align: right
+}
+
+.container .calendar .month table .day td {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px)
+}
+
+.container .calendar .month table .day .red {
+    color: red
+}
+
+.container .calendar .month table .week td {
+    font-weight: normal
+}
+
+.footer {
+    margin: 10px 62px 0 62px
+}
+
+.footer .heading {
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    text-transform: uppercase;
+    margin: 0 0 5px 0
+}
+
+.footer .table_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.footer tr {
+    font-size: 11px;
+    font-family: "Kanit", sans-serif;
+    line-height: 12px
+}
+
+.footer .red {
+    color: red
+}
+
+.footer .date {
+    width: 40px
+}
+
+.footer .divider {
+    width: 13px
+}
+
+/*# sourceMappingURL=style.min.css.map */
